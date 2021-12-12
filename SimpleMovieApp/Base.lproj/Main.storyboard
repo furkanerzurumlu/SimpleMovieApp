@@ -36,6 +36,10 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="hBU-rT-luy"/>
                                 </connections>
                             </collectionView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MVh-cv-bb2">
+                                <rect key="frame" x="0.0" y="292" width="428" height="600"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -44,14 +48,19 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HwP-bl-ASV" secondAttribute="trailing" constant="151" id="DXE-pp-Cgb"/>
                             <constraint firstItem="SUs-9a-uii" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="36" id="Hk7-sk-4PI"/>
                             <constraint firstItem="HwP-bl-ASV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="d0D-YB-rBd"/>
+                            <constraint firstItem="MVh-cv-bb2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hPb-Ia-cih"/>
                             <constraint firstItem="SUs-9a-uii" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jlA-ma-dXc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MVh-cv-bb2" secondAttribute="bottom" id="l1l-iI-Ulh"/>
                             <constraint firstItem="HwP-bl-ASV" firstAttribute="bottom" secondItem="SUs-9a-uii" secondAttribute="bottom" id="s3n-tf-bDE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MVh-cv-bb2" secondAttribute="trailing" id="tpW-ov-R5g"/>
+                            <constraint firstItem="MVh-cv-bb2" firstAttribute="top" secondItem="HwP-bl-ASV" secondAttribute="bottom" id="u2V-vg-oQx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Msc-kp-7fH"/>
                     <connections>
                         <outlet property="pageView" destination="HwP-bl-ASV" id="xLF-k2-th4"/>
                         <outlet property="sliderCollectionView" destination="SUs-9a-uii" id="2o5-Ue-JEB"/>
+                        <outlet property="tableView" destination="MVh-cv-bb2" id="htg-tc-unK"/>
                         <segue destination="Yfc-66-1gr" kind="show" id="269-an-7bA"/>
                     </connections>
                 </viewController>

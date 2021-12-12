@@ -22,6 +22,9 @@
 		DCC3F8F92765FCE900016411 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3F8F72765FCE900016411 /* SliderCell.swift */; };
 		DCC3F8FA2765FCE900016411 /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC3F8F82765FCE900016411 /* SliderCell.xib */; };
 		DCC3F8FE2766026000016411 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3F8FD2766026000016411 /* UIImageView+Extension.swift */; };
+		DCC3F902276627E200016411 /* NowplayinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3F901276627E200016411 /* NowplayinModel.swift */; };
+		DCC3F90627663A4E00016411 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3F90427663A4E00016411 /* HomeCell.swift */; };
+		DCC3F90727663A4E00016411 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC3F90527663A4E00016411 /* HomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		DCC3F8F72765FCE900016411 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		DCC3F8F82765FCE900016411 /* SliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
 		DCC3F8FD2766026000016411 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		DCC3F901276627E200016411 /* NowplayinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowplayinModel.swift; sourceTree = "<group>"; };
+		DCC3F90427663A4E00016411 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		DCC3F90527663A4E00016411 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		ECF0466825748451A17BD814 /* Pods_SimpleMovieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMovieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,6 +131,7 @@
 			children = (
 				DCC3F8EF2765432C00016411 /* Movie.swift */,
 				DCC3F8F42765FA0F00016411 /* UpcomingModel.swift */,
+				DCC3F901276627E200016411 /* NowplayinModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -141,6 +148,7 @@
 		DCC3F8F62765FCC200016411 /* CustomUIs */ = {
 			isa = PBXGroup;
 			children = (
+				DCC3F90327663A2B00016411 /* TableViewCell */,
 				DCC3F8FB2765FCEF00016411 /* SliderCell */,
 			);
 			path = CustomUIs;
@@ -161,6 +169,15 @@
 				DCC3F8FD2766026000016411 /* UIImageView+Extension.swift */,
 			);
 			path = Extenisons;
+			sourceTree = "<group>";
+		};
+		DCC3F90327663A2B00016411 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3F90427663A4E00016411 /* HomeCell.swift */,
+				DCC3F90527663A4E00016411 /* HomeCell.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +243,7 @@
 				DC69E4E42763CC1000A3CA6C /* Assets.xcassets in Resources */,
 				DCC3F8FA2765FCE900016411 /* SliderCell.xib in Resources */,
 				DC69E4E22763CC0E00A3CA6C /* Main.storyboard in Resources */,
+				DCC3F90727663A4E00016411 /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +301,12 @@
 				DCC3F8F52765FA0F00016411 /* UpcomingModel.swift in Sources */,
 				DC69E4DF2763CC0E00A3CA6C /* MainVC.swift in Sources */,
 				DC69E4EF276423C700A3CA6C /* detailVC.swift in Sources */,
+				DCC3F902276627E200016411 /* NowplayinModel.swift in Sources */,
 				DCC3F8F92765FCE900016411 /* SliderCell.swift in Sources */,
 				DCC3F8F02765432C00016411 /* Movie.swift in Sources */,
 				DC69E4DB2763CC0E00A3CA6C /* AppDelegate.swift in Sources */,
 				DCC3F8ED276542A500016411 /* Networking.swift in Sources */,
+				DCC3F90627663A4E00016411 /* HomeCell.swift in Sources */,
 				DC69E4DD2763CC0E00A3CA6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

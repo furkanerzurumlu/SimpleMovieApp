@@ -7,32 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "70D59BE6-58A8-4177-85A8-75891473C01F"
+            uuid = "87FE35F4-810F-4B33-99A0-40E64BA14894"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SimpleMovieApp/Service/Networking.swift"
+            filePath = "SimpleMovieApp/Main/MainVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "getUpcoming(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BF9D47A9-E62E-4995-BF3C-F778A3CA0487"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleMovieApp/Service/Networking.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "getUpcoming(completion:)"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "successNowPlaying(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
